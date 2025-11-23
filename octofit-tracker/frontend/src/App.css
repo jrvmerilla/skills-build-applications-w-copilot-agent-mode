@@ -1,0 +1,131 @@
+
+.App {
+  text-align: center;
+  background: red;
+  min-height: 100vh;
+}
+
+
+.App-logo {
+  height: 60px;
+  pointer-events: none;
+  margin-right: 16px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background: linear-gradient(90deg, #6366f1 0%, #60a5fa 100%);
+  min-height: 40vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(12px + 2vmin);
+  color: #fff;
+  padding: 24px 32px;
+}
+
+
+.App-link {
+  color: #6366f1;
+  font-weight: 600;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.App-link:hover {
+  color: #2563eb;
+}
+
+/* Bootstrap Table Customization */
+.table {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(99, 102, 241, 0.08);
+}
+.table thead {
+  background-color: #6366f1;
+  color: #fff;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e0e7ff;
+}
+
+/* Bootstrap Button Customization */
+.btn-primary {
+  background-color: #6366f1;
+  border-color: #6366f1;
+}
+.btn-primary:hover {
+  background-color: #2563eb;
+  border-color: #2563eb;
+}
+.btn-success {
+  background-color: #22c55e;
+  border-color: #22c55e;
+}
+.btn-success:hover {
+  background-color: #16a34a;
+  border-color: #16a34a;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #6366f1;
+  font-weight: 700;
+}
+
+/* Navigation */
+.navbar {
+  background: linear-gradient(90deg, #6366f1 0%, #60a5fa 100%);
+  box-shadow: 0 2px 8px rgba(99, 102, 241, 0.08);
+}
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:focus {
+  color: #e0e7ff !important;
+}
+
+/* Cards */
+.card {
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(99, 102, 241, 0.08);
+  border: none;
+}
+.card-header {
+  background-color: #6366f1;
+  color: #fff;
+  font-weight: 600;
+}
+
+/* Modals */
+.modal-content {
+  border-radius: 12px;
+}
+.modal-header {
+  background-color: #6366f1;
+  color: #fff;
+}
+
+/* Forms */
+.form-control:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 0.2rem rgba(99, 102, 241, 0.25);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
